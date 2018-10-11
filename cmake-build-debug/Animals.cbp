@@ -86,6 +86,12 @@
 		<Unit filename="/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/animal.hpp">
 			<Option target="Animals"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/bird.cpp">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/bird.hpp">
+			<Option target="Animals"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/inheritance.cpp">
 			<Option target="Animals"/>
 		</Unit>

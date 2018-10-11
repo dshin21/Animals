@@ -20,18 +20,20 @@ protected:
 
     double y;
 
+    double z;
+
 public:
     static long counter;
 
     animal();
 
-    animal( int age, double x, double y );
+    animal( int age, double x, double y, double z = 0 );
 
     animal( const animal& animal );
 
     virtual ~animal();
 
-    virtual void move( double x, double y );
+    virtual void move( double x, double y, double z = 0 );
 
     virtual void sleep();
 
