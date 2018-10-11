@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/animal.hpp
+iostream
+-
+
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/bird.hpp
+animal.hpp
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/animal.hpp
+iostream
+-
+
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/canine.hpp
+animal.hpp
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/animal.hpp
+iostream
+-
+
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/inheritance.cpp
+animal.hpp
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/animal.hpp
+bird.hpp
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/bird.hpp
+canine.hpp
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/canine.hpp
+iostream
+-
+

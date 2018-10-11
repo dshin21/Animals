@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Animals.dir/inheritance.cpp.o CMakeFiles/Animals.dir/animal.cpp.o CMakeFiles/Animals.dir/bird.cpp.o  -o Animals.exe -Wl,--out-implib,libAnimals.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Animals.dir/inheritance.cpp.o CMakeFiles/Animals.dir/animal.cpp.o CMakeFiles/Animals.dir/bird.cpp.o CMakeFiles/Animals.dir/canine.cpp.o  -o Animals.exe -Wl,--out-implib,libAnimals.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

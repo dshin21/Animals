@@ -3,4 +3,4 @@ project(Animals)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Animals inheritance.cpp animal.cpp animal.hpp bird.cpp bird.hpp)
+add_executable(Animals inheritance.cpp animal.cpp animal.hpp bird.cpp bird.hpp canine.cpp canine.hpp)

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Animals.dir/inheritance.cpp.o"
   "CMakeFiles/Animals.dir/animal.cpp.o"
   "CMakeFiles/Animals.dir/bird.cpp.o"
+  "CMakeFiles/Animals.dir/canine.cpp.o"
   "Animals.pdb"
   "Animals.exe"
   "libAnimals.dll.a"
