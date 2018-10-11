@@ -1,0 +1,3 @@
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/cmake-build-debug/CMakeFiles/Animals.dir
+/cygdrive/d/googleDrive/DBOX/BCIT/COMP_3712/Labs/W6/Animals/cmake-build-debug/CMakeFiles/edit_cache.dir
