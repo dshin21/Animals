@@ -17,7 +17,7 @@ int main() {
 
     my_bird->eat();
     my_bird->sleep();
-    my_bird->move(3.0, 4.0);
+    my_bird->move(3.0, 4.0, 8.0);
 
     animal* my_canine = new canine;
     cout << endl << *dynamic_cast<canine*>(my_canine) << endl;

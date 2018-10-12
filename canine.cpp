@@ -23,19 +23,23 @@ canine::~canine() {
     cout << "Canine destructor called." << endl;
 }
 
+//makes the canine move to a new set of coordinates
 void canine::move( double x, double y, double z ) {
     animal::move( x, y );
     cout << "Canine ID: " << canine::id << " moved to " << x << ", " << y << endl;
 }
 
+//makes the canine sleep
 void canine::sleep() {
     cout << "Canine ID: " << canine::id << " now sleeping." << endl;
 }
 
+//makes the canine eat
 void canine::eat() {
     cout << "Canine ID: " << canine::id << " now eating." << endl;
 }
 
+//makes the canine hunt
 void canine::hunt() {
     cout << "Canine ID: " << canine::id << " now hunting." << endl;
 }
@@ -46,6 +50,6 @@ std::ostream& operator<<( ostream& os, canine& canine ) {
        << "Canine alive status: " << canine.is_alive << endl
        << "Canine x-coorindate: " << canine.x << endl
        << "Canine y-coorindate: " << canine.y << endl
-       << "Canine y-coorindate: " << canine.z << endl;
+       << "Canine z-coorindate: " << canine.z << endl;
     return os;
 }

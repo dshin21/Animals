@@ -27,13 +27,14 @@ animal::~animal() {
     cout << "Animal destructor called." << endl;
 }
 
-
+//makes the animal move to a new set of coordinates
 void animal::move( double x, double y, double z ) {
     animal::x = x;
     animal::y = y;
     cout << "Animal ID: " << animal::id << " moved to (" << x << "," << y << ")" << endl;
 }
 
+//makes the animal sleep
 void animal::sleep() {
     cout << "Animal ID: " << id << " is now sleeping." << endl;
 }
@@ -47,6 +48,7 @@ std::ostream& operator<<( ostream& os, animal& animal ) {
     return os;
 }
 
+//makes the animal eat
 void animal::eat() {
     cout << "Animal ID: " << id << " now eating." << endl;
 }

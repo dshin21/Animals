@@ -25,16 +25,19 @@ bird::~bird() {
     cout << "Bird destructor called." << endl;
 }
 
+//moves the bird to a new set of coordinates
 void bird::move( double x, double y, double z ) {
     animal::move( x, y );
     bird::z = z;
-    cout << "Bird ID: " << bird::id << " moved to:" << x << ", " << y << ", " << x << endl;
+    cout << "Bird ID: " << bird::id << " moved to:" << x << ", " << y << ", " << x << " ," << z<<   endl;
 }
 
+//makes the bird sleep
 void bird::sleep() {
     cout << "The bird ID: " << bird::id << " now sleeping." << endl;
 }
 
+//makes the bird eat
 void bird::eat() {
     cout << "The bird ID: " << bird::id << " now eating." << endl;
 }
@@ -45,6 +48,6 @@ std::ostream& operator<<( ostream& os, bird& bird ) {
        << "Bird alive status: " << bird.is_alive << endl
        << "Bird x-coorinate: " << bird.x << endl
        << "Bird y-coorinate: " << bird.y << endl
-       << "Bird y-coorinate: " << bird.z << endl;
+       << "Bird z-coorinate: " << bird.z << endl;
     return os;
 }
